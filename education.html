@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alina Nesimi Resume</title>
+
+    <script>
+        function navigateToPage(page) {
+            window.location.href = page; // Navigate to the specified page
+        }
+    </script>
+
+    <style>
+        
+       
+       
+        .btn { 
+            background-color: #78c49e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 15px;
+            font-size: 16px;
+            width: auto;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .btn:hover {
+            background-color: #229768;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #c0d4c6;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            margin: 15px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+
+        .school-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            font-size: 15px;
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 8px; 
+            line-height: 1.4; 
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn" onclick="navigateToPage('index.html')">
+        Back
+    </button>
+    
+    <h1>Education</h1>
+
+    <div class="container">
+        <div class="school-container">
+            <h2>Rutgers University - New Brunswick</h2>
+            <span>9/2023 - Present</span>
+        </div>
+        <h3>Expected Graduation: 2027</h3>
+        <h3>Major: <span style="font-weight: normal;">Computer Science</span></h3>
+        <h3>Relevant Coursework:</h3>
+        <ul> 
+            <li>Intro to Computer Science</li>
+            <li>Data Structures</li>
+            <li>Discrete Structures</li>
+        </ul>
+        <h3>Clubs:</h3>
+        <ul> 
+            <li>VP of Rutgers Albanian Club</li>
+            <li>Member of USACS Club (Undergraduate Student Alliance of Computer Scientists)</li>
+            <li>Member of Routure Magazine Club</li>
+        </ul>
+    </div>
+
+    <div class="container"> 
+        <div class="school-container">
+            <h2>Hackensack High School</h2>
+            <span>9/2019 - 7/2023</span>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>
